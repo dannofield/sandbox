@@ -23,3 +23,15 @@ in res>values>styles.xml file change
 to
 "Base.Theme.AppCompat.Light.DarkActionBar"
 And then sync the project and refresh the layout
+
+/******************************************************/
+Set icon for Android application
+/*******************************************************/
+I found this tool most useful.
+http://romannurik.github.io/AndroidAssetStudio/
+
+Upload a image.
+Download a zip.
+Extract into your project.
+
+Ref. https://stackoverflow.com/questions/5350624/set-icon-for-android-application
