@@ -1,1 +1,25 @@
-This is an Example
+/********************************************************/
+Gradle Dependency to use RecyclerView:
+/********************************************************/
+
+The RecyclerView widget is a part of separate library valid for API 7 level or higher. 
+Add the following dependency in your Gradle build file to use recyclerview.
+
+Gradle Scripts > build.gradle and inside dependencies
+
+Example if you have this
+implementation 'com.android.support:appcompat-v7:28.0.0-rc02'
+You would have to add this line to support reciclerview
+implementation 'com.android.support:recyclerview-v7:28.0.0-rc02'
+
+/*******************************************************/
+RENDER PROBLEM
+/*******************************************************/
+Some android studio versions face rendering issue. To fix the problem.
+
+in res>values>styles.xml file change
+
+"Theme.AppCompat.Light.DarkActionBar"
+to
+"Base.Theme.AppCompat.Light.DarkActionBar"
+And then sync the project and refresh the layout
